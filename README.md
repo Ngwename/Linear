@@ -15,7 +15,7 @@ The dataset is randomly generated with NumPy using a fixed random seed for repro
 - Generates `y` using the relationship:
 
 \[
-y = 3 + 4x + \text{noise}
+y = 3 + 4x + \{noise}
 \]
 
 - Adds Gaussian noise to simulate real-world data
