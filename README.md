@@ -2,8 +2,8 @@
 
 Te project uses two approaches: 
 
-1. Closed form Solution— solves for the best coefficients directly using linear algebra(The normal equation - β̂ = (XᵀX)⁻¹ Xᵀ y).  
-2. Gradient Descent — Iteratively updates parameters to minimize Mean Square Error.
+1. **Closed form Solution**— solves for the best coefficients directly using linear algebra(The normal equation - β̂ = (XᵀX)⁻¹ Xᵀ y).  
+2. **Gradient Descent** — Iteratively updates parameters to minimize Mean Square Error.
 
 The dataset is randomly generated with NumPy using a fixed random seed for reproducibility.
 
@@ -36,7 +36,7 @@ y = 3 + 4x + \{noise}
 - Uses a learning rate of `0.05`
 - Runs 1000 iterations:
   - Computes predictions
-  - Calculates MSE Loss
+  - Calculates **MSE Loss**
   - Computes gradients
   - Updates parameters
 - Plots:
