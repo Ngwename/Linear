@@ -67,6 +67,12 @@ $$
 - Uses a learning rate of `0.05`
 - Runs 1000 iterations:
 
+- Gradient Descent update rule:
+
+$$
+\theta := \theta - \alpha \nabla_\theta J(\theta)
+$$
+
   - Computes predictions  
   - Calculates **MSE Loss**  
   - Computes gradients  
