@@ -90,8 +90,6 @@ $$
 - NumPy
 - Matplotlib
 
-  Edward Ng'wena
-  700792495
 
 <details>
 <summary>Install dependencies</summary>
